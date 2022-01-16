@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header h1{
+    font-weight: bold;
+}
+
+#nav{
+    display: flex;
+    background: #000;
+}
+
+#nav a{
+    margin-inline: 20px;
+    color: #fff;
+}
+
+#nav a:hover{
+    color: #FFA500;
+}
+
+#nav .active{
+    text-decoration: underline;
+}
+
+.logo img{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+.card{
+    box-shadow: 0.25rem 0.25rem 0.25rem 0.25rem #f5f5f5;
+}
+
+.card p{
+    color: #FFA500;
+}
+
+.card-body a{
+    color: #000;
+}
+
+.card-body a:hover{
+    color: #FFA500;
+}
+
+.shop-all a{
+    color: #000;
+    font-weight: 500;
+}
+
+.fade-in{
+    opacity: 0;
+}
+
+.fade-in.appear{
+    opacity: 1;
+    transition: 500ms ease-in;
+}
+
+footer{
+    background-color: #000;
+    color: #fff;
+}
+
